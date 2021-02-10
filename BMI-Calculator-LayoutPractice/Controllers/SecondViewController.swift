@@ -18,7 +18,7 @@ class SecondViewController: UIViewController {
         view.backgroundColor = .red
         
         let titleLbl = UILabel()
-        titleLbl.text = "YOUR RESULT"
+        titleLbl.text = bmiVal
         titleLbl.frame = CGRect(x: 0, y: 0, width: 100, height: 50)
         view.addSubview(titleLbl)
     }

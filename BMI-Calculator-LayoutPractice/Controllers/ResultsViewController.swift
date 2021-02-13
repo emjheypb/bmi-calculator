@@ -12,13 +12,18 @@ class ResultsViewController: UIViewController {
 
     @IBOutlet weak var resultLbl: UILabel!
     @IBOutlet weak var adviceLbl: UILabel!
+    @IBOutlet var backgroundView: UIView!
     
-    var bmiValue: String? 
+    var result: String?
+    var advice: String?
+    var color: UIColor?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        resultLbl.text = bmiValue
+        resultLbl.text = result
+        adviceLbl.text = advice
+        backgroundView.backgroundColor = color
     }
     
     @IBAction func recalculate(_ sender: Any) {

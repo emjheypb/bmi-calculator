@@ -107,7 +107,7 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="calculateBMI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A5h-tU-pih"/>
+                                            <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A5h-tU-pih"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -210,6 +210,7 @@
                     <navigationItem key="navigationItem" id="Rt5-mM-n31"/>
                     <connections>
                         <outlet property="adviceLbl" destination="wL7-Mk-scd" id="4gR-Oo-TLG"/>
+                        <outlet property="backgroundView" destination="HHh-MX-RY3" id="SjH-xo-j6D"/>
                         <outlet property="resultLbl" destination="hWo-gc-8p7" id="qFc-Kf-Goo"/>
                     </connections>
                 </viewController>
